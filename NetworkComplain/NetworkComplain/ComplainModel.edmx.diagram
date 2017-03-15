@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2a34843285a4066b5633c6ef8fdbc56" Name="Diagram1">
+        <EntityTypeShape EntityType="NetworkComplaindbModel.Complain" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.ComplainStatu" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.Computer" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.ComputerStatu" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.Location" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.User" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NetworkComplaindbModel.Usertype" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_ComplainStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_Location1" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_Users4" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_Users5" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_Users6" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Complains_Users7" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Computer_ComputerStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Computer_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="NetworkComplaindbModel.FK_Users_Usertypes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
